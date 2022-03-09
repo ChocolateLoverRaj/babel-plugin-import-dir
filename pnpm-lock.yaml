@@ -17,6 +17,7 @@ specifiers:
   typescript: ^4.6.2
 
 dependencies:
+  never: 1.1.0
   tslib: 2.3.1
 
 devDependencies:
@@ -29,7 +30,6 @@ devDependencies:
   eslint-plugin-node: 11.1.0_eslint@7.32.0
   eslint-plugin-promise: 5.2.0_eslint@7.32.0
   jest: 27.5.1
-  never: 1.1.0
   release-it: 14.12.5
   ts-jest: 27.1.3_c53d1ca518b3b945a0cb74482cae0a36
   typescript: 4.6.2
@@ -3636,7 +3636,7 @@ packages:
   /never/1.1.0:
     resolution: {integrity: sha512-K0xfZVKUX7hrmbZKmyD1KB+PT8I9b9Ffxvmht8FhRjMIoe7/XyTfgyQko7G6RKvfnT9oxCrq0CARm1De5uXEbQ==}
     engines: {node: '>=10.18.0 <11 || >=12.14.0 <13 || >=13.5.0'}
-    dev: true
+    dev: false
 
   /new-github-release-url/1.0.0:
     resolution: {integrity: sha512-dle7yf655IMjyFUqn6Nxkb18r4AOAkzRcgcZv6WZ0IqrOH4QCEZ8Sm6I7XX21zvHdBeeMeTkhR9qT2Z0EJDx6A==}
