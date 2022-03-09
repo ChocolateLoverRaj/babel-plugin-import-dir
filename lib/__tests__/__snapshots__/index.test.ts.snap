@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`default import 1`] = `
+"// eslint-disable-next-line no-unused-vars
+import _utilGoodNumber from \\"./util/goodNumber.js\\";
+import _utilIsOdd from \\"./util/isOdd.js\\";
+const util = {
+  \\"goodNumber\\": _utilGoodNumber,
+  \\"isOdd\\": _utilIsOdd
+};"
+`;
+
+exports[`import file 1`] = `
+"// eslint-disable-next-line no-unused-vars
+import isOdd from './util/isOdd';"
+`;
+
+exports[`named imports 1`] = `
+"// eslint-disable-next-line no-unused-vars
+import goodNumber from \\"./util/goodNumber\\";
+import isOdd from \\"./util/isOdd\\";"
+`;

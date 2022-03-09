@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "extends": [
+    "standard-with-typescript"
+  ],
+  "ignorePatterns": [
+    "/dist",
+    "**/__snapshots__"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "max-len": [
+      "error",
+      100
+    ]
+  }
+}
